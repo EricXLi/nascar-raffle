@@ -29,7 +29,7 @@ export class RedeemCodeComponent {
       // 'name': [null, Validators.required],
       // 'password': [null, [Validators.required, this.checkPassword]],
       // 'description': [null, [Validators.required, Validators.minLength(5), Validators.maxLength(10)]],
-      'validate': ''
+      validate: [false, Validators.requiredTrue]
     });
   }
 

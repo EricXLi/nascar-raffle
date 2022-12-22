@@ -1,5 +1,5 @@
 <div class="container" *ngIf="!post; else forminfo" novalidate> 
-  <h1 style="text-align: center;">Redeem your tickes</h1>
+  <h1 style="text-align: center;">Redeem your tickets</h1>
   <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form">
     
     <mat-form-field class="form-element">
@@ -32,7 +32,8 @@
     </mat-form-field>
   -->
     <div class="form-element">
-      <mat-checkbox formControlName="validate" value="1">I agree to terms and conditions</mat-checkbox>
+      <mat-checkbox formControlName="validate" value="1">I agree to all terms and conditions</mat-checkbox>
+      
     </div>
 
     <div class="form-element">
