@@ -12,14 +12,16 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RedeemCodeComponent } from './redeem-code/redeem-code.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PurchaseTicketComponent } from './purchase-ticket/purchase-ticket.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     RedeemCodeComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    PurchaseTicketComponent
   ],
   imports: [
     BrowserModule,

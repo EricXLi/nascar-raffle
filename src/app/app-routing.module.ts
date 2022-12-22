@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { RedeemCodeComponent } from './redeem-code/redeem-code.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { PurchaseTicketComponent } from './purchase-ticket/purchase-ticket.component'
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: 'home', pathMatch:'full'},
   { path: 'redeem-code', component: RedeemCodeComponent },
+  { path: 'purchase-ticket', component : PurchaseTicketComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

@@ -1,24 +1,8 @@
-<div class="card-container center" style="margin-top: 40px;">        
-    <form class="example-form">
-        <mat-form-field class="example-full-width">
-          <mat-label>Email</mat-label>
-          <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
-                 placeholder="Ex. pat@example.com">
-          <mat-hint>Errors appear instantly!</mat-hint>
-          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-            Please enter a valid email address
-          </mat-error>
-          <mat-error *ngIf="emailFormControl.hasError('required')">
-            Email is <strong>required</strong>
-          </mat-error>
-        </mat-form-field>
-      </form>
+<div style="margin-top: 60px;">
+    <h2>Sorry, raffle tickets has sold out. </h2>
+    <h2>If you already purchased your ticket, please click <a routerLink="/redeem-code">here</a> to redeem. </h2>
 </div>
 
-  <!-- Footer -->
-  <footer>
-    By signing up you agree to receive email and phone communications from Texas Motor Speedway and NASCAR. You may opt out at any time.
-  </footer>
 
   <svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
     <title>Gray Clouds Background</title>
