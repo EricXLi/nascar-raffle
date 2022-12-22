@@ -87,7 +87,7 @@ export class RedeemCodeComponent {
     if(this.formGroup.get('code').value == "WRGUZRVKRR2M3") {
       this.router.navigate(['/winner_WRGUZRVKRR2M3']);
     } else {
-      this.router.navigate(['/you_did_not_win']);
+      this.router.navigate(['/did-not-win']);
     }
   }
 
