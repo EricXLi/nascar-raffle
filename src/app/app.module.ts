@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PurchaseTicketComponent } from './purchase-ticket/purchase-ticket.component';
+import { WinnerComponent } from './winner/winner.component';
+import { DidNotWinComponent } from './did-not-win/did-not-win.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { PurchaseTicketComponent } from './purchase-ticket/purchase-ticket.compo
     RedeemCodeComponent,
     PageNotFoundComponent,
     HomeComponent,
-    PurchaseTicketComponent
+    PurchaseTicketComponent,
+    WinnerComponent,
+    DidNotWinComponent
   ],
   imports: [
     BrowserModule,
